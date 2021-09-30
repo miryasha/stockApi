@@ -43,11 +43,11 @@ class StockApi extends Base {
 
                 const dbCongig = await mysql.createConnection({
         
-                host: cryptoHost,
-                port: port,//port
-                user: user,//username
-                password: cryptoPassword,//password
-                database: cryptoDatabase_name,//database
+                    host: cryptoHost,
+                    port: port,//port
+                    user: user,//username
+                    password: cryptoPassword,//password
+                    database: cryptoDatabase_name,//database
                 
                 });
                 
